@@ -2,6 +2,8 @@ package models
 
 import "errors"
 
+//comm
+
 var (
 	ErrNotFound     = errors.New("not found")
 	ErrUnauthorized = errors.New("unauthorized")
